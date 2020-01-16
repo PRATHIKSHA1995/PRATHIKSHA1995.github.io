@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSCE 206 Labs: Resources</title>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+	<p>
+		<a href="http://courses.cse.tamu.edu/yum/Fall2019/206/index.html">Course Home</a> | 
+		<a href="index.html">Lab Home</a> | 
+		<a href="Resources.html">Lab Resources</a>
+	</p>
+	<hr>
+	<h1 style="font-size:16.0pt">CSCE 206 Labs: Programming Resources</h1>
+	<hr>
+	<div>
+		<ul>
+			<li><a href="Remote Access.html"><b>Remote Access Outside the Labs</b></a></li>
+			<li><a href="Others.html"><b>Other Resources</b></a></li>
+			<li><b>Recommend Learning:</b></li>
+			Video Tutorials:
+			<ol>
+				<li><p><a href="https://youtu.be/HEjPop-aK_w">Intro to Computer Architecture</a> (4 minutes)</p></li>
+				<li><p><a href="https://www.youtube.com/watch?v=0uQKemgUJbY">How to Create and Run a C++ Program in Visual Studio 2017</a> (12.5 minutes)</p></li>
+			</ol>
+			Website Tutorials:
+			<ol>
+				<li><a href="https://www.programiz.com/c-programming">Learn C Programming</a></li>
+				<p>
+					This webpage has included contents about how to use C programming library functions.
+				</p>
+				<li><a href="https://www.tutorialspoint.com/cprogramming/c_recursion.htm">C-Recursion</a></li>
+				<p>
+					Learn to use recursion function and examples included.
+				</p>
+				<li><a href="https://www.programiz.com/c-programming/c-strings">C String Tutorials</a></li>
+				<p>
+					Learn to operate on a string type.
+				</p>
+			</ol>
+			Common Mistakes:
+			<ol>
+				<li>main() function type.</li>
+				<b style="color: blue">Correct:</b>
+				<pre>
+				int main()
+				{
+					......;
+
+					return 0;
+				}
+
+				void main()
+				{
+					......;
+				}
+				</pre>
+				<b style="color: red">Incorrect:</b>
+				<pre>
+				main()
+				{
+					......;
+				}
+				</pre>
+
+				<li>Initialize a variable.</li>
+				<p style="color: blue">
+					int, float, double, these variables are required to have initialization before using it. <a href="https://en.wikibooks.org/wiki/C_Programming/Variables">More.</a>
+				</p>
+				<b style="color: blue">Correct:</b>
+				<pre>
+				double sum=0;
+				int n=0;
+				sum += 10;
+				if(n != 0)
+				{
+					......;
+				}
+				else
+				{
+					......;
+				}
+				</pre>
+				<b style="color: red">Incorrect:</b>
+				<pre>
+				double sum;
+				int n;
+				sum += 10;
+				if(n != 0)
+				{
+					......;
+				}
+				else
+				{
+					......;
+				}
+				</pre>
+			</ol>
+		</ul>
+	</div>
+	<br>
+	<div>
+		<p>
+			Last update: Aug 26, 2019.
+		</p>
+	</div>
+</body>
+</html>
